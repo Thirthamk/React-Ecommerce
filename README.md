@@ -1,9 +1,21 @@
 # Image 
 ![image](https://user-images.githubusercontent.com/79642065/201836441-b6a3726e-0321-4a04-946a-2106de0396c5.png)
 
+# MVP:
+2 pages:
+Home Page
 
+Grid of products
 
+Carousel of featured products
 
+Product Page (with id parameter) Similar to a product page on another site, allows you to add to cart and select product variants
+All products are stored in firestore.
+
+By using firestore and react create cart page, the current cart and the product quantity Cart page have the following
+List of products in cart
+ability to change quantity of products in cart
+ability to remove entries from cart
 
 # Getting Started with Create React App
 
