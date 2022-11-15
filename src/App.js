@@ -7,7 +7,7 @@ import { Signup } from "./Components/Signup";
 import { NotFound } from "./Components/NotFound";
 import { AddProducts } from "./Components/AddProduct";
 import { Cart } from "./Components/Cart";
-import slide from "./Carousel/Slide";
+
 
 export const App = () => {
     return (

@@ -32,8 +32,6 @@ export const AddProducts = () => {
 
     const handleAddProducts = (e) => {
         e.preventDefault();
-        // console.log(title, description, price);
-        // console.log(image);
         const uploadTask = storage
             .ref(`product-images/${image.name}`)
             .put(image);

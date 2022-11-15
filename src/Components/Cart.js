@@ -25,7 +25,6 @@ export const Cart = () => {
     }
 
     const user = GetCurrentUser();
-    // console.log(user);
 
     // state of cart products
     const [cartProducts, setCartProducts] = useState([]);

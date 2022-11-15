@@ -1,7 +1,7 @@
 import React from "react";
 import { Icon } from "react-icons-kit";
-// import { plus } from "react-icons-kit/feather/plus";
-// import { minus } from "react-icons-kit/feather/minus";
+import { plus } from "react-icons-kit/feather/plus";
+import { minus } from "react-icons-kit/feather/minus";
 // import { minus } from "react-icons-kit/feather/minus";
 // import { minus } from "react-icons-kit/fa/minus";
 
@@ -19,11 +19,11 @@ export const IndividualCartProduct = ({ cartProduct }) => {
             <span>Quantity</span>
             <div className="product-text quantity-box">
                 <div className="action-btns minus">
-                    {/* <Icon icon={minus} size={20} /> */}
+                    <Icon icon={minus} size={20} />
                 </div>
                 <div>{cartProduct.qty}</div>
                 <div className="action-btns plus">
-                    {/* <Icon icon={plus} size={20} /> */}
+                    <Icon icon={plus} size={20} />
                 </div>
             </div>
             <div className="product-text cart-price">

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import logo from "../Images/logo.jpg";
 import { Icon } from "react-icons-kit";
 import { shoppingCart } from "react-icons-kit/feather/shoppingCart";
-// import { happy } from "react-icons-kit/icomoon/happy";
 import { auth } from "../FirbaseConfig/FirebaseConfig";
 import { useHistory } from "react-router-dom";
 
@@ -52,7 +51,6 @@ export const Navbar = ({ user }) => {
                             <Link className="navlink" to="cart">
                                 <Icon icon={shoppingCart} size={20} />
                             </Link>
-                            {/* <span className='cart-indicator'>{totalQty}</span> */}
                         </div>
                         <div
                             className="btn btn-danger btn-md"

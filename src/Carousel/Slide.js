@@ -30,44 +30,4 @@ export const Slide = () => {
             </div>
         </>
     );
-    {
-        /* <img src="a.jpg" /> */
-    }
 };
-
-// export default slide;
-
-// export const Slide = () => {
-
-// export class Slide extends Component {
-//     state = {
-//         items: [
-//             { id: 1, src: "a.jpg" },
-//             { id: 1, src: "b.jpg" },
-//             { id: 1, src: "c.jpg" },
-//             { id: 1, src: "d.jpg" },
-//             { id: 1, src: "e.jpg" },
-//         ],
-//     };
-//     render() {
-//         const { items } = this.state;
-//         return (
-//             <Carousel>
-//                 <img src={first} alt="" height="80px" width="40px" />
-//                 {items.map((product) => (
-//                     // <div key={product.id}>
-//                     //     {product.src}
-//                     // </div>
-//                     <div key={product.id}>
-//                         <img
-//                             src={product.src}
-//                             height="8px"
-//                             width="40px"
-//                             alt=""
-//                         />
-//                     </div>
-//                 ))}
-//             </Carousel>
-//         );
-//     }
-// }
