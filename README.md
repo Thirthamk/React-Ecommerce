@@ -17,6 +17,9 @@ List of products in cart
 ability to change quantity of products in cart
 ability to remove entries from cart
 
+# Future Goals
+My future goals for this project will be to update the styling and make it more responsive. I might also add more number of products and add logic to prevent users from adding items to cart that are no longer in stock
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
